@@ -37,7 +37,7 @@ XButton2::x ;use a Mouse Forward as walkie comms
 ; ------------------------------------- 
 ; forbiden makro 
 ; -------------------------------------
-:*?:/e:: ; /e = global shutdown 
+:*?:/e:: ; /e = global shutdown turret
 {
     send "b3{enter}" 
     sleep 1
