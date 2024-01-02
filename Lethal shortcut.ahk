@@ -13,8 +13,8 @@
 ; Shortcut Command
 ; -------------------------------------
 
-:*?:.s::switch{Enter}           ; .s(dot + s key) = switch + enter key
-:*?:/s::switch                  ; /s( slach + s key) = switch
+:*?:.s::switch                  ; .s(dot + s key) = switch
+:*?:/s::switch{Enter}           ; /s( slach + s key) = switch + enter key
 :*?:/h::help{Enter}             ; /h = help
 :*?:/o::other{Enter}            ; /o = other
 :*?:/m::moons{Enter}            ; /m = moons
@@ -24,7 +24,7 @@
 :*?:/b::store{Enter}            ; /b = store
 :*?:/p::ping                    ; /p = ping
 :*?:/q::scan{Enter}             ; /q = scan
-:*?:/x::storage{Enter}             ; /q = storage
+:*?:/i::storage{Enter}          ; /i = storage
 :*?:/d::deny{Enter}             ; /d = deny
 :*?:/c::confirm{Enter}          ; /c = confirm
 
@@ -37,7 +37,7 @@ XButton2::x ;use a Mouse Forward as walkie comms
 ; ------------------------------------- 
 ; forbiden makro 
 ; -------------------------------------
-:*?:.t:: ; .t = global shutdown 
+:*?:/e:: ; /e = global shutdown 
 {
     send "b3{enter}" 
     sleep 1
