@@ -1,5 +1,5 @@
 @echo off
-cd /d "H:\games\Lethal Company"
+cd /d "your_lethal_directory"
 start "" "lethal company.exe"
 start "" "lethal shortcut.ahk"
 exit
